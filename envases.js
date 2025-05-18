@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const products = [
         {
             id: 1,
-            name: "SWAROSKY",
+            name: "SWAROVSKI",
             image: "swarosky.jpeg",
             material : "Vidrio",
             sizes: ["30ml" , "60ml" , "100ml"],

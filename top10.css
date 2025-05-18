@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-    --primary-color: hsl(230, 50%, 43%);
+    --primary-color: hsl(212, 54%, 51%);
     --primary-dark: hsl(230, 60%, 35%);
     --secondary-color: #22347a;
     --accent-color: #544c8f;
@@ -274,10 +274,12 @@ body {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 15px;
-    margin-bottom: 30px;
-    width: 90%;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Distribuye columnas dinámicamente */
+    gap: 20px; /* Espacio entre tarjetas */
+    width: 100%;
+    max-width: 1400px; /* Evita que las tarjetas se dispersen demasiado en pantallas grandes */
+    margin: 0 auto;
+    justify-content: center;
 }
 
 @media (min-width: 576px) {
